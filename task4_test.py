@@ -7,3 +7,4 @@ def test1():
 
 def test2():
     assert round(task4.area(2),2) == 12.57
+test1()
