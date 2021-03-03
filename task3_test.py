@@ -8,4 +8,3 @@ def test1():
 def test2():
     assert task3.hypotenuse(5,12) == 13
 
-test1()
