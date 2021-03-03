@@ -19,7 +19,9 @@ def hypotenuse(a,b):
     import math
     oneside=float(a**2)
     twoside=float(b**2)
-    math.sqrt(c**2==oneside+twoside)
-    return (oneside+twoside)
+    c=oneside+twoside
+    math.sqrt(c)
+    c=(math.sqrt(c))
+    return (c)
 
 assert hypotenuse(6,8) == 10
